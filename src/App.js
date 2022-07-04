@@ -1,20 +1,15 @@
 import './App.css';
-import NameChangeForm from './components/nameChangeForm/nameChangeForm.component';
+import Welcome from './components/welcome/welcome.component';
 
 function App() {
-
-  const nameFromLocalStorage = localStorage.getItem('myUserName')
-  let userName = nameFromLocalStorage || "User"
-
   return (
     <div>
-      <h1>Hi there, {userName} !</h1>
-      {/* sort button  */}
-      {userName !== "User" && <button onClick={() => localStorage.setItem('myUserName', "User")}>Change Name</button>}
-      {userName === "User" && <NameChangeForm />}
-
+      <Welcome />
+      <h2>Your contact list</h2>
+      {/* search imput */}
+      {/* contact list component*/}
     </div>
-  );
+  )
 }
 
 export default App;

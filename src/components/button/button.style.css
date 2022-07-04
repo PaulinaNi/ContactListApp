@@ -1,0 +1,8 @@
+.defaultButton {
+ border: none;
+ border-radius: 0.5rem;
+ background-color: var(--color-accent);
+ color: var(--color-main-dark);
+ font-weight: bold;
+ padding: 0.5rem 1rem;
+}

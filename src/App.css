@@ -2,9 +2,10 @@
   --color-main: #0d2e44;
   --color-main-dark: #010E17;
   --color-main-light: #728897;
-  --color-accent: #B79C4F;
+  --color-accent: #cfad4d;
 }
-*{
+
+* {
   margin: 0;
   background-color: var(--color-main);
   color: var(--color-main-light);
