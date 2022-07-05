@@ -9,11 +9,8 @@ export default function NameChangeForm() {
  const nameChangeSubmit = () => localStorage.setItem('myUserName', newName)
 
  return (
-  <form onSubmit={() => { nameChangeSubmit() }}>
-   <label htmlFor='name'>
-    Type your name
-    <input type="text" id="name" onChange={(e) => newNameInputChangeHandler(e)} />
-   </label>
+  <form className="nameChangeForm" onSubmit={() => { nameChangeSubmit() }}>
+   <input type="text" id="name" placeholder="Type your name" onChange={(e) => newNameInputChangeHandler(e)} required />
    <input type="submit" value="Submit" />
   </form>
  )

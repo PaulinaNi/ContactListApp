@@ -1,0 +1,12 @@
+.nameChangeForm input {
+ display: block;
+ margin-bottom: 0.5rem;
+ padding: 0.5rem;
+ border: 0.1rem var(--color-accent) solid;
+ border-radius: 0.5rem;
+ color: var(--color-accent);
+}
+
+.nameChangeForm input::placeholder {
+ color: var(--color-accent);
+}
