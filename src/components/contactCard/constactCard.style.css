@@ -1,0 +1,15 @@
+.contactCard {
+ color: var(--color-accent);
+ font-weight: bold;
+ padding: 0 0 1rem 0;
+}
+
+.contactCard li {
+ font-weight: normal;
+ list-style: none;
+ padding-left: 1rem;
+}
+
+.contactCardHolder {
+ padding: 1rem;
+}
