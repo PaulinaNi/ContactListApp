@@ -5,6 +5,7 @@ export default function ContactCard(props) {
  const { name, phone, email, company, id } = props
 
  function editButtonHandler(id) {
+  // finish editing and add deleting 
   console.log("start editing", id)
  }
  return (
